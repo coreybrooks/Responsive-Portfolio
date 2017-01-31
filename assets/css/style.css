@@ -55,7 +55,7 @@ h3 {
 /*header*/
 
 #masthead {
-  position: fixed;
+  position: static;
   z-index: 99;
   margin: 0 0 30px;
   overflow: auto;
