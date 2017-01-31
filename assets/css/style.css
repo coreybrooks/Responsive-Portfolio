@@ -260,14 +260,17 @@ input[type=submit] {
 }
 
 @media screen and (max-width: 640px) {
+
+  body {
+    font-weight: bold;
+  }
    .container {
     width: 100%;
     max-width: 600px;
   }
    #logo {
     width: 100%;
-    max-width: 600px;
-    float: none;
+    position: relative;
    }
 
    nav {
@@ -280,6 +283,21 @@ input[type=submit] {
    }
 
    #masthead {
-    margin: 0 0 7px;
+   }
+
+   #main-container {
+    padding-top: 0px;
+   }
+
+   nav a {
+    text-align: center;
+    margin-left: 0;
+    width: 32%;
+    padding: 20px;
+   }
+
+   .auth-image {
+    width: 540px;
+    margin-bottom: 20px;
    }
 }
