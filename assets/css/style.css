@@ -266,6 +266,7 @@ input[type=submit] {
   }
    #logo {
     width: 100%;
+    max-width: 600px;
     float: none;
    }
 
@@ -276,5 +277,9 @@ input[type=submit] {
 
    .sidebar {
     float: left;
+   }
+
+   #masthead {
+    margin: 0 0 7px;
    }
 }
