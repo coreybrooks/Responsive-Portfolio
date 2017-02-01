@@ -266,6 +266,10 @@ input[type=submit] {
     max-width: 420px;
    }
 
+   .work {
+    width: 360px;
+   }
+
    .auth-image {
     width: 100%;
     max-width: 360px;
@@ -292,7 +296,13 @@ input[type=submit] {
     width: 100%;
     max-width: 730px;
    }
-
+   .work {
+    position: relative;
+    width: 315px;
+    overflow: auto;
+    float: left;
+    /*margin: 20px 0 25px;*/
+   }
    .auth-image {
     width: 100%;
     max-width: 330px;
@@ -349,7 +359,9 @@ input[type=submit] {
     width: 32%;
     padding: 20px;
    }
-
+    .work {
+    width: 540px;
+   }
    .auth-image {
     width: 100%;
     max-width: 540px;
