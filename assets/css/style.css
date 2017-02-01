@@ -3,7 +3,7 @@ body {
   font-size: 18px;
   color: #777;
   line-height: 34px;
-  background: url("../images/concrete_seamless.png");
+  background: url("../images/cheap_diagonal_fabric.png");
 }
 
 * {
@@ -55,7 +55,7 @@ h3 {
 /*header*/
 
 #masthead {
-  position: static;
+  position: relative;
   z-index: 98;
   margin: 0 0 30px;
   overflow: auto;
@@ -245,19 +245,69 @@ input[type=submit] {
   border: 0 none;
 }
 
+/* Responsive Media Section begins below*/
+/*Section for max 980px*/
+
 @media screen and (max-width: 980px) {
+     body {
+    font-weight: bold;
+  }
+
    .container {
     width: 100%;
     max-width: 730px;
+
+  }
+    #main-container {
+    padding-top: 40px;
+   }
+   .main-section {
+    width: 100%;
+    max-width: 420px;
+   }
+
+   .auth-image {
+    width: 100%;
+    max-width: 360px;
+    margin-bottom: 30px;
+   }
+
+}
+
+/* section for max 768px */
+
+@media screen and (max-width: 768px) {
+    body {
+    font-weight: bold;
+  }
+   .container {
+    width: 100%;
+    max-width: 730px;
+  }
+
+   #main-container {
+    padding-top: 40px;
+   }
+   .main-section {
+    width: 100%;
+    max-width: 730px;
+   }
+
+   .auth-image {
+    width: 100%;
+    max-width: 330px;
+    margin-bottom: 40px;
+   }
+   .sidebar {
+  padding: 30px;
+  width: 100%;
+  max-width: 730px;
+  margin-bottom: 40px;
   }
 }
 
-@media screen and (max-width: 768px) {
-   .container {
-    width: 100%;
-    max-width: 730px;
-  }
-}
+
+/* section for max-width 640px */
 
 @media screen and (max-width: 640px) {
 
@@ -283,12 +333,16 @@ input[type=submit] {
    }
 
    #masthead {
+    position: static;
    }
 
    #main-container {
     padding-top: 0px;
    }
-
+   .main-section {
+    width: 100%;
+    max-width: 600px;
+   }
    nav a {
     text-align: center;
     margin-left: 0;
@@ -297,7 +351,14 @@ input[type=submit] {
    }
 
    .auth-image {
-    width: 540px;
+    width: 100%;
+    max-width: 540px;
     margin-bottom: 20px;
    }
+   .sidebar {
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 40px;
+   }
+
 }
