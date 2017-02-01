@@ -301,7 +301,10 @@ input[type=submit] {
     width: 315px;
     overflow: auto;
     float: left;
-    /*margin: 20px 0 25px;*/
+    margin-bottom: 0 0 20px 0;
+   }
+   .work:nth-child(even) {
+    margin-right: 35px;
    }
    .auth-image {
     width: 100%;
